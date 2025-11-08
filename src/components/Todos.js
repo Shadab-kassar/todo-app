@@ -22,7 +22,7 @@ const Todos = () => {
   })
  
   return (
-    <div className='bg-white border py-2' >
+    <div className='bg-white py-2'>
       <div className='d-flex justify-content-between align-items-center'>
         <button onClick={handleclick} className=' mx-3 my-1 end-div-btn'>Fetch all</button>
         <button className='end-div-btn mx-3' onClick={()=>{dispatch(clearall());dispatch(cleardata())}}>Clear All</button>

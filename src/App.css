@@ -7,7 +7,7 @@
 }
 
 .component-div{
-  width: 31rem;
+  width: 70%;
   border-radius: 10px;
   border:  8px solid white;
 }
@@ -18,13 +18,14 @@ body{
 }
 
 .form-control input{
-  width: 25rem;
+  width: 100%;
   height: 3rem;
   margin: 1rem 0.5rem;
 }
 
 .item-box{
-  width: 28.5rem;
+  width: 96%;
+  border-radius: 10px;
   /* height: 3rem; */
   background-color: rgb(224, 224, 224);
 }
@@ -42,7 +43,7 @@ body{
 }
 
 .end-div{
-  width: 28.5rem;
+  width: 100%
 }
 
 .end-div-btn{
@@ -92,5 +93,11 @@ body{
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+  .component-div{
+  width: 95%;
   }
 }
